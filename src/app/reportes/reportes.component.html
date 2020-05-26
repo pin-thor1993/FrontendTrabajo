@@ -1,0 +1,64 @@
+<nav class="navbar navbar-light" style="background-color: #749950;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BioPharma</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" >
+            <li class="nav-item dropdown" dropdown>
+              <a class="nav-link dropdown-toggle" dropdownToggle href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PACIENTES
+              </a>
+              <div class="dropdown-menu" *dropdownMenu aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Agregar paciente</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" routerLink="/listado-pacientes">Ver pacientes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown" dropdown>
+                <a class="nav-link dropdown-toggle" dropdownToggle href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  MEDICAMENTOS
+                </a>
+                <div class="dropdown-menu" *dropdownMenu aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" routerLink= "/agregar-medicamento">Agregar medicamentos</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Ver medicamentos</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown" dropdown>
+                <a class="nav-link dropdown-toggle" dropdownToggle href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  REPORTES
+                </a>
+                <div class="dropdown-menu" *dropdownMenu aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Reportes diarios</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Reportes mensuales</a>
+
+                </div>
+              </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+      <button class="btn btn-danger">SALIR</button>
+      
+</nav>
+
+<div class="container mt-5">
+    <li class="nav-item dropdown" dropdown>
+        <a class="nav-link dropdown-toggle" dropdownToggle href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          REPORTES
+        </a>
+        <div class="dropdown-menu" *dropdownMenu aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Reporte diario</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" routerLink="/listado-pacientes">Reporte Mensual</a>
+        </div>
+      </li>
+
+
+</div>
